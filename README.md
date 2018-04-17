@@ -126,11 +126,11 @@ A tree plugin for vue2
 | data      | Array |  |  set tree data  |
 | size      | String      |   |  set tree item size , value : 'large' or '' or ''small' |
 | showCheckbox | Boolean      |    false |   |
-| wholeRow | Boolean      |    false |   |
-| noDots | Boolean      |    false |  |
+| wholeRow | Boolean      |    false |  整行高亮，在size为small时无高亮效果！ |
+| noDots | Boolean      |    false | 隐藏虚线 |
 | collapse | Boolean      |    true |  set all tree item collapse state |
-| multiple | Boolean      |    false |  set multiple selected tree item  |
-| allowBatch | Boolean      |    false |   |
+| multiple | Boolean      |    false |  是否允许多选CheckBox  |
+| allowBatch | Boolean      |    false |  是否允许checkbox联动处理 |
 | textFieldName | String      |    'text' |  set tree item display field |
 | valueFieldName | String      |    'value' |  set tree item value field |
 | itemEvents | Object      |    {} |  register any event to tree item, [example](https://github.com/zdy1988/vue-jstree/blob/master/App.vue)  |
