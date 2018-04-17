@@ -137,7 +137,7 @@ A tree plugin for vue2
 | async | Function      |     |  async load callback function  |
 | loadingText | String      |    'Loading' |  set loading text |
 | draggable | Boolean      |    false |  set tree item can be dragged |
-| klass | String      |     |  set append tree class |
+| klass | String      |     |  设置树结构容器的class |
 
 ## Methods in node.model
 
