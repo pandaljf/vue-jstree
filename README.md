@@ -159,7 +159,7 @@ A tree plugin for vue2
 
 | Name        | Type           | Default  |
 | ------------- |:-------------:| -----:|
-| icon      | String      |   |
+| icon      | String      | 图标 class名称，如: iconfont icon-tubiao |
 | opened | Boolean      |    false |
 | selected | Boolean      |    false |
 | disabled | Boolean      |    false |
